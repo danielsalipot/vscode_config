@@ -1,0 +1,250 @@
+.mtk3 {
+    font-family: 'Jetbrains Mono' !important;
+    color: #008c7d !important;
+}
+
+.line-numbers {
+    position: relative !important;
+    width: 35px !important;
+    font-size: 16px !important;
+    font-family: 'Jetbrains Mono' !important;
+}
+
+
+.margin-view-overlays, .monaco-breadcrumbs, .sticky-widget, .titlebar-container, .monaco-breadcrumbs, .notification-list-item
+{
+    background: #17181c !important;
+}
+
+
+
+.pane-composite-part{
+    border: none !important;
+}
+
+.invisible.scrollbar.horizontal{
+    background: #17181c !important;
+    border: none !important;
+    height: 0px !important;
+}
+
+
+/* Code canvas top shadow */
+.monaco-editor .scroll-decoration {
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important;
+    top: -6px !important; */
+}
+
+/* Toolbars when tabs are enabled. */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+    display: none !important;
+}
+
+/* Side bar */
+.part.sidebar {
+    background-image: linear-gradient(180deg, rgba(41,47,50,1) 0%, rgba(34,41,45,1) 21%, rgba(23,24,28,1) 100%) !important;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
+}
+
+/* File Explorer Selected Item */
+.monaco-list.list_id_1 .monaco-list-row.selected {
+    background-image:  linear-gradient(90deg, rgba(0,60,46,1) 0%, rgba(0,116,85,1) 84%);
+    opacity: 1 !important;
+    border: none !important;
+}
+
+/* List item label name */
+.monaco-list.list_id_1 .monaco-list-row.selected .label-name {
+    color: #c4c4c4 !important;
+    opacity: 1 !important;
+}
+
+/* File explorer action buttons */
+.monaco-workbench .part.sidebar .title-actions .actions-container {
+    display: none;
+}
+
+/* File Explorer Item Label */
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row
+.monaco-icon-label .label-name {
+    font-family: 'Jetbrains Mono' !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #c4c4c4 !important;
+}
+
+/* Sidebar top shadow */
+.monaco-scrollable-element>.shadow.top {
+    box-shadow: 0px 0px 10px rgba(0,0,0,.75) !important;
+    top: -3px !important;
+}
+
+/* Sidebar title */
+.composite.title {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-items: center !important;
+}
+.composite.title h2 {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    color: #c4c4c4 !important;
+}
+
+.composite.title h2::before {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 1.1rem;
+    content: '🚀';
+}
+
+/* Scroll Bar */
+.slider {
+    position: absolute !important;
+    right: 1px !important;
+    width: 5px !important;
+    border-radius: 10px !important;
+    background: #adadad !important;
+    left: auto !important;
+}
+
+.codicon-toolbar-more, .codicon-word-wrap {
+    display: block !important;
+}
+
+/* Tooltip box style */
+.monaco-editor-hover,
+.monaco-hover {
+    box-shadow: 0px 0px 170px 0px rgba(23,24,28,1) !important;
+    padding: 10px !important;
+    background-image: linear-gradient(180deg, rgba(41,47,50,1) 0%, rgba(34,41,45,1) 21%, rgba(23,24,28,1) 100%) !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 10px !important;
+    border: none !important
+}
+
+/* Project title's style at the top. */
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Project Title */
+.titlebar-left {
+    justify-content: flex-start !important;
+    flex-grow: 0 !important;
+    width: auto !important;
+}
+
+/* Search Label */
+.search-label {
+    font-family: 'Jetbrains Mono' !important;
+    font-size: 15px !important;
+    color: #c4c4c4;
+    display: block;
+}
+
+/* Search icon */
+.search-icon {
+    display: none !important;
+}
+
+.codicon-search::before {
+    display: none !important;
+}
+
+.codicon-arrow-right, .codicon-arrow-left {
+    display: none !important;
+}
+
+.titlebar-right > * {
+    display: none !important;
+}
+
+/* Command Palette */
+.quick-input-widget {
+    transform: translateY(-50%) !important;
+    top: 50% !important;
+    box-shadow: 0px 0px 170px 0px rgba(23,24,28,1) !important;
+    padding: 10px 10px 18px 10px !important;
+    background-image: linear-gradient(180deg, rgba(41,47,50,1) 0%, rgba(34,41,45,1) 21%, rgba(23,24,28,1) 100%) !important;
+    backdrop-filter: blur(3px) !important;
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+/* Remove background for lists */
+.monaco-list-rows {
+    background: transparent !important;
+}
+
+/* List hover */
+.monaco-list-row:hover {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+    background: none !important;
+}
+
+/* .monaco-list-row.focused {
+    background-color: rgb(181 198 228 / 25%) !important;
+} */
+
+/* .synthetic-focus {
+    outline-color: rgba(50, 50, 50, 1) !important;
+} */
+
+/* .quick-input-widget .monaco-label {
+    font-size: 11px !important;
+} */
+
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+    border-radius: 12px !important;
+    box-shadow: 0px 0px 170px 0px rgba(23,24,28,1) !important;
+    padding: 8px !important;
+    border: none !important;
+    background-color: #191a1e !important;
+    font-family: "Jetbrains Mono" !important;
+    font-size: 15px !important;
+    margin-bottom: 25px !important;
+}
+
+#command-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .15);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+}
+
+/* Command palette's input box placeholder. */
+.monaco-inputbox input::placeholder {
+    color: rgba(255, 255, 255, .3) !important;
+}
+
+/* .monaco-workbench label {
+    color: #c4c4c4 !important;
+    font-size: 20px !important;
+} */
+
+/* Container that holds the VS Code home icon. */
+.editor-group-watermark {
+    max-width: none !important;
+}
+
+.command-center-center {
+    width:  auto !important;
+}
+
+.letterpress {
+    background-position: center;
+    background-size: 100px 100px !important;
+    width: 60% !important;
+}
